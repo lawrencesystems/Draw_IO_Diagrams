@@ -1,0 +1,220 @@
+<mxfile host="Electron" modified="2023-11-15T19:39:49.769Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.3 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="MdFk-uUPtcbvZfohpZrk" version="22.0.3" type="device" pages="2">
+  <diagram id="IBx7njtZm3vPZUfNCvKe" name="Page-1">
+    <mxGraphModel dx="2791" dy="1257" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="#114B5F" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xXB0cHM0CpRhzdx4YEjr-1" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;hachureGap=4;fillColor=#F45B69;fontColor=#E4FDE1;strokeColor=#028090;" parent="1" vertex="1">
+          <mxGeometry x="-454" y="-94" width="341" height="219" as="geometry" />
+        </mxCell>
+        <mxCell id="xXB0cHM0CpRhzdx4YEjr-2" value="" style="html=1;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;shadow=0;dashed=0;shape=mxgraph.rack.hpe_aruba.switches.j9773a_2530_24g_poeplus_switch;rounded=0;sketch=0;hachureGap=4;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;connectable=0;" parent="1" vertex="1">
+          <mxGeometry x="-402" y="436" width="657" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="xXB0cHM0CpRhzdx4YEjr-3" value="" style="group;fontColor=#E4FDE1;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-220" y="239" width="428" height="107" as="geometry" />
+        </mxCell>
+        <mxCell id="xXB0cHM0CpRhzdx4YEjr-4" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;fontSize=12;verticalAlign=top;shadow=0;dashed=0;image;image=img/lib/cumulus/switch_bare_metal_empty.svg;rounded=0;sketch=0;hachureGap=4;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;labelBackgroundColor=#114B5F;connectable=0;" parent="xXB0cHM0CpRhzdx4YEjr-3" vertex="1">
+          <mxGeometry width="428" height="107" as="geometry" />
+        </mxCell>
+        <mxCell id="xXB0cHM0CpRhzdx4YEjr-5" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;rounded=0;labelBackgroundColor=none;sketch=0;hachureGap=4;fontSize=30;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;image=https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/PfSense_logo.png/1200px-PfSense_logo.png;" parent="xXB0cHM0CpRhzdx4YEjr-3" vertex="1">
+          <mxGeometry x="40" y="26" width="186.93" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="xXB0cHM0CpRhzdx4YEjr-6" value="WAN" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;hachureGap=4;fontColor=#E4FDE1;fontStyle=1" parent="xXB0cHM0CpRhzdx4YEjr-3" vertex="1">
+          <mxGeometry x="245" y="54" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXB0cHM0CpRhzdx4YEjr-7" value="IGB2" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;hachureGap=4;fontColor=#E4FDE1;fontStyle=1" parent="xXB0cHM0CpRhzdx4YEjr-3" vertex="1">
+          <mxGeometry x="291" y="54" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXB0cHM0CpRhzdx4YEjr-8" value="OPT" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;hachureGap=4;fontColor=#E4FDE1;fontStyle=1" parent="xXB0cHM0CpRhzdx4YEjr-3" vertex="1">
+          <mxGeometry x="336" y="54" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXB0cHM0CpRhzdx4YEjr-10" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;comic=0;flowAnimation=1;strokeWidth=3;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;labelBackgroundColor=#114B5F;" parent="1" edge="1">
+          <mxGeometry width="120" relative="1" as="geometry">
+            <mxPoint x="-149.71000000000004" y="44.02151924619716" as="sourcePoint" />
+            <mxPoint x="57" y="279" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="59" y="89" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xXB0cHM0CpRhzdx4YEjr-12" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;comic=0;fontColor=#E4FDE1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;strokeColor=#028090;strokeWidth=3;curved=1;flowAnimation=1;labelBackgroundColor=#114B5F;" parent="1" source="xXB0cHM0CpRhzdx4YEjr-7" edge="1">
+          <mxGeometry width="120" relative="1" as="geometry">
+            <mxPoint x="98" y="381" as="sourcePoint" />
+            <mxPoint x="174" y="484" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="89" y="390" />
+              <mxPoint x="291" y="380" />
+              <mxPoint x="326" y="523" />
+              <mxPoint x="266" y="578" />
+              <mxPoint x="185" y="574" />
+              <mxPoint x="170" y="534" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xXB0cHM0CpRhzdx4YEjr-13" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=1;comic=0;fontColor=#E4FDE1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;strokeColor=#028090;strokeWidth=3;curved=1;flowAnimation=1;labelBackgroundColor=#114B5F;fontSize=18;" parent="1" edge="1">
+          <mxGeometry width="120" relative="1" as="geometry">
+            <mxPoint x="92" y="461" as="sourcePoint" />
+            <mxPoint x="-100" y="720" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="118" y="714" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xXB0cHM0CpRhzdx4YEjr-14" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;hachureGap=4;fontColor=#E4FDE1;image=https://blog.ui.com/wp-content/uploads/2016/10/unifi-app-logo.png;fillColor=#F45B69;strokeColor=#028090;" parent="1" vertex="1">
+          <mxGeometry x="-374" y="428.5" width="219.68" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="xXB0cHM0CpRhzdx4YEjr-17" value="Networks in Use" style="swimlane;hachureGap=4;fontSize=20;fontColor=#E4FDE1;startSize=35;fillColor=#F45B69;strokeColor=#028090;" parent="1" vertex="1">
+          <mxGeometry x="19" y="-19" width="284" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="xXB0cHM0CpRhzdx4YEjr-18" value="&lt;div style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;172.16.16.0/24 - VLAN 1&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;10.77.77.0/24 - VLAN 777&lt;br&gt;&lt;/span&gt;192.168.1.0/24 - VLAN 10&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;hachureGap=4;fontSize=20;fontColor=#E4FDE1;" parent="xXB0cHM0CpRhzdx4YEjr-17" vertex="1">
+          <mxGeometry x="3" y="66" width="545" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xXB0cHM0CpRhzdx4YEjr-20" value="&lt;b style=&quot;font-size: 20px;&quot;&gt;SSID: BEER&lt;br&gt;VLAN TAG 10&lt;br&gt;192.168.1.0/24&lt;/b&gt;" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#028090;fillColor=#F45B69;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.wi_fi;hachureGap=4;fontSize=18;rotation=0;fontColor=#E4FDE1;" parent="1" vertex="1">
+          <mxGeometry x="-835" y="622" width="124" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="xXB0cHM0CpRhzdx4YEjr-22" value="Switch Port Proifles" style="swimlane;hachureGap=4;fontSize=21;fontColor=#E4FDE1;startSize=29;fillColor=#F45B69;strokeColor=#028090;" parent="1" vertex="1">
+          <mxGeometry x="126" y="620" width="225" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="xXB0cHM0CpRhzdx4YEjr-23" value="&lt;div style=&quot;font-size: 28px;&quot;&gt;&lt;span style=&quot;font-size: 28px;&quot;&gt;Port 24 ALL&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 28px;&quot;&gt;&lt;span style=&quot;font-size: 28px;&quot;&gt;Port 15 ALL&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;hachureGap=4;fontSize=28;fontColor=#E4FDE1;" parent="xXB0cHM0CpRhzdx4YEjr-22" vertex="1">
+          <mxGeometry x="5" y="29" width="156" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="xXB0cHM0CpRhzdx4YEjr-26" style="edgeStyle=none;shape=connector;curved=1;rounded=0;comic=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#114B5F;fontFamily=Helvetica;fontSize=11;fontColor=#E4FDE1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;strokeColor=#028090;strokeWidth=3;fillColor=#F45B69;" parent="1" source="xXB0cHM0CpRhzdx4YEjr-24" target="xXB0cHM0CpRhzdx4YEjr-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-572" y="-58" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xXB0cHM0CpRhzdx4YEjr-24" value="Remotely Hosted&#xa;UniFi Network App / Controller" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;hachureGap=4;fontColor=#E4FDE1;image=https://blog.ui.com/wp-content/uploads/2016/10/unifi-app-logo.png;fillColor=#F45B69;strokeColor=#028090;fontSize=20;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-777" y="-10" width="219.68" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="xXB0cHM0CpRhzdx4YEjr-27" value="10.77.77.10" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;hachureGap=4;fontFamily=Helvetica;fontSize=33;fontColor=#E4FDE1;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-264" y="794" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EGwzLu2YFUioNNWi9TZu-5" value="" style="endArrow=open;html=1;labelBackgroundColor=#114B5F;fontSize=18;strokeColor=#028090;fontColor=#E4FDE1;comic=0;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;strokeWidth=3;curved=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-315" y="709" as="sourcePoint" />
+            <mxPoint x="-688" y="714" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-504" y="661" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xXB0cHM0CpRhzdx4YEjr-11" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;hachureGap=4;fontColor=#E4FDE1;image=https://unifisrilanka.lk/wp-content/uploads/2020/10/U6-lite_004_60892943-337e-46bb-bd24-062528e4f80a_grande-1.png;connectable=0;fillColor=#F45B69;strokeColor=#028090;" parent="1" vertex="1">
+          <mxGeometry x="-395" y="570" width="337" height="337" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Threats" id="BjJiWQ1v2C7b7xXn1P2y">
+    <mxGraphModel dx="3057" dy="1400" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="#114B5F" math="0" shadow="0">
+      <root>
+        <mxCell id="fPA-4l9yGj6jKRWR1l3m-0" />
+        <mxCell id="fPA-4l9yGj6jKRWR1l3m-1" parent="fPA-4l9yGj6jKRWR1l3m-0" />
+        <mxCell id="fPA-4l9yGj6jKRWR1l3m-2" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;hachureGap=4;fillColor=#F45B69;fontColor=#E4FDE1;strokeColor=#028090;" parent="fPA-4l9yGj6jKRWR1l3m-1" vertex="1">
+          <mxGeometry x="-454" y="-94" width="341" height="219" as="geometry" />
+        </mxCell>
+        <mxCell id="fPA-4l9yGj6jKRWR1l3m-3" value="" style="html=1;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;shadow=0;dashed=0;shape=mxgraph.rack.hpe_aruba.switches.j9773a_2530_24g_poeplus_switch;rounded=0;sketch=0;hachureGap=4;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;connectable=0;" parent="fPA-4l9yGj6jKRWR1l3m-1" vertex="1">
+          <mxGeometry x="-402" y="436" width="657" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="fPA-4l9yGj6jKRWR1l3m-4" value="" style="group;fontColor=#E4FDE1;" parent="fPA-4l9yGj6jKRWR1l3m-1" vertex="1" connectable="0">
+          <mxGeometry x="-220" y="239" width="428" height="107" as="geometry" />
+        </mxCell>
+        <mxCell id="fPA-4l9yGj6jKRWR1l3m-5" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;fontSize=12;verticalAlign=top;shadow=0;dashed=0;image;image=img/lib/cumulus/switch_bare_metal_empty.svg;rounded=0;sketch=0;hachureGap=4;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;labelBackgroundColor=#114B5F;connectable=0;" parent="fPA-4l9yGj6jKRWR1l3m-4" vertex="1">
+          <mxGeometry width="428" height="107" as="geometry" />
+        </mxCell>
+        <mxCell id="fPA-4l9yGj6jKRWR1l3m-6" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;rounded=0;labelBackgroundColor=none;sketch=0;hachureGap=4;fontSize=30;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;image=https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/PfSense_logo.png/1200px-PfSense_logo.png;" parent="fPA-4l9yGj6jKRWR1l3m-4" vertex="1">
+          <mxGeometry x="40" y="26" width="186.93" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="fPA-4l9yGj6jKRWR1l3m-7" value="WAN" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;hachureGap=4;fontColor=#E4FDE1;fontStyle=1" parent="fPA-4l9yGj6jKRWR1l3m-4" vertex="1">
+          <mxGeometry x="245" y="54" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fPA-4l9yGj6jKRWR1l3m-8" value="IGB2" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;hachureGap=4;fontColor=#E4FDE1;fontStyle=1" parent="fPA-4l9yGj6jKRWR1l3m-4" vertex="1">
+          <mxGeometry x="291" y="54" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fPA-4l9yGj6jKRWR1l3m-9" value="OPT" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;hachureGap=4;fontColor=#E4FDE1;fontStyle=1" parent="fPA-4l9yGj6jKRWR1l3m-4" vertex="1">
+          <mxGeometry x="336" y="54" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fPA-4l9yGj6jKRWR1l3m-11" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;comic=0;flowAnimation=1;strokeWidth=3;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;labelBackgroundColor=#114B5F;" parent="fPA-4l9yGj6jKRWR1l3m-1" edge="1">
+          <mxGeometry width="120" relative="1" as="geometry">
+            <mxPoint x="-149.71000000000004" y="44.02151924619716" as="sourcePoint" />
+            <mxPoint x="57" y="279" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="59" y="89" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fPA-4l9yGj6jKRWR1l3m-12" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;hachureGap=4;fontColor=#E4FDE1;image=https://unifisrilanka.lk/wp-content/uploads/2020/10/U6-lite_004_60892943-337e-46bb-bd24-062528e4f80a_grande-1.png;connectable=0;fillColor=#F45B69;strokeColor=#028090;" parent="fPA-4l9yGj6jKRWR1l3m-1" vertex="1">
+          <mxGeometry x="-396" y="581" width="337" height="337" as="geometry" />
+        </mxCell>
+        <mxCell id="fPA-4l9yGj6jKRWR1l3m-13" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;comic=0;fontColor=#E4FDE1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;strokeColor=#028090;strokeWidth=3;curved=1;flowAnimation=1;labelBackgroundColor=#114B5F;" parent="fPA-4l9yGj6jKRWR1l3m-1" source="fPA-4l9yGj6jKRWR1l3m-8" edge="1">
+          <mxGeometry width="120" relative="1" as="geometry">
+            <mxPoint x="98" y="381" as="sourcePoint" />
+            <mxPoint x="174" y="484" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="89" y="390" />
+              <mxPoint x="291" y="380" />
+              <mxPoint x="326" y="523" />
+              <mxPoint x="266" y="578" />
+              <mxPoint x="185" y="574" />
+              <mxPoint x="170" y="534" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fPA-4l9yGj6jKRWR1l3m-14" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;comic=0;fontColor=#E4FDE1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;strokeColor=#028090;strokeWidth=3;curved=1;flowAnimation=1;labelBackgroundColor=#114B5F;" parent="fPA-4l9yGj6jKRWR1l3m-1" edge="1">
+          <mxGeometry width="120" relative="1" as="geometry">
+            <mxPoint x="92" y="461" as="sourcePoint" />
+            <mxPoint x="-100" y="720" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="118" y="714" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fPA-4l9yGj6jKRWR1l3m-15" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;hachureGap=4;fontColor=#E4FDE1;image=https://blog.ui.com/wp-content/uploads/2016/10/unifi-app-logo.png;fillColor=#F45B69;strokeColor=#028090;" parent="fPA-4l9yGj6jKRWR1l3m-1" vertex="1">
+          <mxGeometry x="-374" y="428.5" width="219.68" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="fPA-4l9yGj6jKRWR1l3m-18" value="Networks in Use" style="swimlane;hachureGap=4;fontSize=20;fontColor=#E4FDE1;startSize=35;fillColor=#F45B69;strokeColor=#028090;" parent="fPA-4l9yGj6jKRWR1l3m-1" vertex="1">
+          <mxGeometry x="19" y="-19" width="284" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="fPA-4l9yGj6jKRWR1l3m-19" value="&lt;div style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;172.16.16.0/24 - VLAN 1&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;br style=&quot;font-size: 20px;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;192.168.1.0/24 - VLAN 10&lt;/span&gt;&lt;br style=&quot;font-size: 20px;&quot;&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;hachureGap=4;fontSize=20;fontColor=#E4FDE1;" parent="fPA-4l9yGj6jKRWR1l3m-18" vertex="1">
+          <mxGeometry x="3" y="66" width="545" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fPA-4l9yGj6jKRWR1l3m-20" value="&lt;b style=&quot;font-size: 20px;&quot;&gt;SSID: BEER&lt;br&gt;VLAN TAG 10&lt;br&gt;192.168.1.0/24&lt;/b&gt;" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#028090;fillColor=#F45B69;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.wi_fi;hachureGap=4;fontSize=18;rotation=0;fontColor=#E4FDE1;" parent="fPA-4l9yGj6jKRWR1l3m-1" vertex="1">
+          <mxGeometry x="-835" y="622" width="124" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="fPA-4l9yGj6jKRWR1l3m-21" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;comic=0;fontSize=18;fontColor=#E4FDE1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;strokeColor=#028090;strokeWidth=3;curved=1;flowAnimation=1;labelBackgroundColor=#114B5F;" parent="fPA-4l9yGj6jKRWR1l3m-1" edge="1">
+          <mxGeometry width="120" relative="1" as="geometry">
+            <mxPoint x="-277" y="778" as="sourcePoint" />
+            <mxPoint x="-768" y="834" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-339" y="956" />
+              <mxPoint x="-770" y="932" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fPA-4l9yGj6jKRWR1l3m-22" value="Switch Port Proifles" style="swimlane;hachureGap=4;fontSize=21;fontColor=#E4FDE1;startSize=29;fillColor=#F45B69;strokeColor=#028090;" parent="fPA-4l9yGj6jKRWR1l3m-1" vertex="1">
+          <mxGeometry x="126" y="620" width="225" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="fPA-4l9yGj6jKRWR1l3m-23" value="&lt;div style=&quot;font-size: 28px;&quot;&gt;&lt;span style=&quot;font-size: 28px;&quot;&gt;Port 24 ALL&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 28px;&quot;&gt;&lt;span style=&quot;font-size: 28px;&quot;&gt;Port 15 ALL&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;hachureGap=4;fontSize=28;fontColor=#E4FDE1;" parent="fPA-4l9yGj6jKRWR1l3m-22" vertex="1">
+          <mxGeometry x="5" y="29" width="156" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="fPA-4l9yGj6jKRWR1l3m-24" style="edgeStyle=none;shape=connector;curved=1;rounded=0;comic=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#114B5F;fontFamily=Helvetica;fontSize=11;fontColor=#E4FDE1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;strokeColor=#028090;strokeWidth=3;fillColor=#F45B69;" parent="fPA-4l9yGj6jKRWR1l3m-1" source="fPA-4l9yGj6jKRWR1l3m-25" target="fPA-4l9yGj6jKRWR1l3m-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-572" y="-58" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fPA-4l9yGj6jKRWR1l3m-25" value="Remotely Hosted&#xa;UniFi Network App / Controller" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;hachureGap=4;fontColor=#E4FDE1;image=https://blog.ui.com/wp-content/uploads/2016/10/unifi-app-logo.png;fillColor=#F45B69;strokeColor=#028090;fontSize=20;fontStyle=1" parent="fPA-4l9yGj6jKRWR1l3m-1" vertex="1">
+          <mxGeometry x="-777" y="-10" width="219.68" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="fPA-4l9yGj6jKRWR1l3m-26" value="10.77.77.10" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;hachureGap=4;fontFamily=Helvetica;fontSize=33;fontColor=#E4FDE1;fontStyle=1" parent="fPA-4l9yGj6jKRWR1l3m-1" vertex="1">
+          <mxGeometry x="-264" y="794" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fPA-4l9yGj6jKRWR1l3m-27" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn0.iconfinder.com/data/icons/cyber-crime-or-threats-blue-set/120/hacker_cyber_crime-512.png;fontSize=22;" parent="fPA-4l9yGj6jKRWR1l3m-1" vertex="1">
+          <mxGeometry x="356" y="61" width="402" height="402" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
