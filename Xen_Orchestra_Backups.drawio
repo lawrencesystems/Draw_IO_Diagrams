@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-20T11:34:17.403Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="N27yp9eg_YsVlOVotYte" version="22.1.11" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-12-20T11:43:24.423Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="j1dNTWhZSrzkBytrs_HY" version="22.1.11" type="github" pages="7">
   <diagram id="AEoEUmx5q7cQljkfjXUp" name="XO Local">
     <mxGraphModel dx="3598" dy="917" grid="0" gridSize="20" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" background="#353743" math="0" shadow="0">
       <root>
@@ -433,14 +433,14 @@
     </mxGraphModel>
   </diagram>
   <diagram name="test" id="_-PrkcaogXmuYSpbM-gM">
-    <mxGraphModel dx="3598" dy="917" grid="0" gridSize="20" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" background="#353743" math="0" shadow="0">
+    <mxGraphModel dx="3894" dy="1079" grid="0" gridSize="20" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" background="#353743" math="0" shadow="0">
       <root>
         <mxCell id="OEyU-Tnsp5q24_a8GRPD-0" />
         <mxCell id="OEyU-Tnsp5q24_a8GRPD-1" parent="OEyU-Tnsp5q24_a8GRPD-0" />
         <mxCell id="_O523qutrB9ra9LmFIT--0" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;strokeWidth=10;flowAnimation=0;labelBackgroundColor=#114B5F;strokeColor=#028090;fontColor=#E4FDE1;" edge="1" parent="OEyU-Tnsp5q24_a8GRPD-1" source="_O523qutrB9ra9LmFIT--1" target="_O523qutrB9ra9LmFIT--3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_O523qutrB9ra9LmFIT--1" value="&lt;font style=&quot;font-size: 20px&quot; color=&quot;#80ff00&quot;&gt;&lt;b&gt;NAS Storage&lt;br&gt;With Templates&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.server_storage;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;" vertex="1" parent="OEyU-Tnsp5q24_a8GRPD-1">
+        <mxCell id="_O523qutrB9ra9LmFIT--1" value="&lt;font style=&quot;font-size: 20px&quot; color=&quot;#80ff00&quot;&gt;&lt;b&gt;NAS&lt;br&gt;With Templates&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.server_storage;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;" vertex="1" parent="OEyU-Tnsp5q24_a8GRPD-1">
           <mxGeometry x="-1513" y="209" width="85" height="80" as="geometry" />
         </mxCell>
         <mxCell id="_O523qutrB9ra9LmFIT--2" value="" style="group;fontStyle=1;fontSize=13;fontColor=#E4FDE1;" vertex="1" connectable="0" parent="OEyU-Tnsp5q24_a8GRPD-1">
@@ -498,7 +498,7 @@
         </mxCell>
         <mxCell id="_O523qutrB9ra9LmFIT--19" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeWidth=7;dashPattern=1 1;strokeColor=#FFFFFF;" edge="1" parent="OEyU-Tnsp5q24_a8GRPD-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-1088" y="1120" as="sourcePoint" />
+            <mxPoint x="-1088" y="955" as="sourcePoint" />
             <mxPoint x="-1094" y="66" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -537,8 +537,22 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="_O523qutrB9ra9LmFIT--29" value="Prep host, load templates, &amp;amp; test" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=33;fontColor=#FFFFFF;" vertex="1" parent="OEyU-Tnsp5q24_a8GRPD-1">
+        <mxCell id="_O523qutrB9ra9LmFIT--29" value="Prep New Host&lt;br&gt;Load Templates &amp;amp; Test" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=33;fontColor=#FFFFFF;" vertex="1" parent="OEyU-Tnsp5q24_a8GRPD-1">
           <mxGeometry x="-1713" y="507" width="497" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="_O523qutrB9ra9LmFIT--30" value="" style="endArrow=classic;html=1;rounded=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;fontSize=11;labelBackgroundColor=#114B5F;strokeColor=#028090;fontColor=#E4FDE1;strokeWidth=14;endFill=1;jumpSize=4;dashed=1;" edge="1" parent="OEyU-Tnsp5q24_a8GRPD-1" source="_O523qutrB9ra9LmFIT--20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-948" y="844" as="sourcePoint" />
+            <mxPoint x="-722" y="869" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_O523qutrB9ra9LmFIT--31" value="Send to Client" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontSize=23;rotation=15;labelBackgroundColor=none;fontColor=#FFFFFF;fontStyle=1" connectable="0" vertex="1" parent="_O523qutrB9ra9LmFIT--30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="41" y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_O523qutrB9ra9LmFIT--32" value="" style="swimlane;fontSize=20;startSize=30;strokeWidth=4;collapsible=0;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;dashed=1;" vertex="1" parent="OEyU-Tnsp5q24_a8GRPD-1">
+          <mxGeometry x="-758.13" y="761" width="469" height="190" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
