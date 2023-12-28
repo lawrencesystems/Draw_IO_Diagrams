@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-28T15:57:56.718Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Y9rViXwHPiI7Bw789DKg" version="22.1.15" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-12-28T15:59:43.747Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="UR-i0KFEuCS5eypG_rvO" version="22.1.15" type="github" pages="9">
   <diagram name="Traditional VPN" id="mUJIeAtG4FjD4gp9zTXd">
     <mxGraphModel dx="1678" dy="1046" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#114B5F" math="0" shadow="0">
       <root>
@@ -303,14 +303,14 @@
             <mxPoint x="651" y="307" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-6swWoAFQc5QNOOsiuWM-7" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Office/Home Network&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=#000000;labelBackgroundColor=default;" parent="-6swWoAFQc5QNOOsiuWM-1" vertex="1">
-          <mxGeometry x="12" y="73" width="259" height="507" as="geometry" />
+        <mxCell id="-6swWoAFQc5QNOOsiuWM-7" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Office Network&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=#000000;labelBackgroundColor=default;" parent="-6swWoAFQc5QNOOsiuWM-1" vertex="1">
+          <mxGeometry x="12" y="73" width="259" height="484" as="geometry" />
         </mxCell>
         <mxCell id="-6swWoAFQc5QNOOsiuWM-6" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Server&lt;br&gt;Local IP Address&lt;br&gt;Ovelay IP&amp;nbsp;Address&lt;br&gt;&lt;/font&gt;" style="fontColor=#E4FDE1;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#F45B69;strokeColor=#028090;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.server;" parent="-6swWoAFQc5QNOOsiuWM-7" vertex="1">
-          <mxGeometry x="44.75" y="296" width="71" height="75" as="geometry" />
+          <mxGeometry x="44.75" y="262" width="71" height="75" as="geometry" />
         </mxCell>
         <mxCell id="F3ZugaPa6C07F6jFrYPm-7" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.vpn_connection;fillColor=#F58534;gradientColor=none;fontFamily=Helvetica;fontSize=11;fontColor=#E4FDE1;" parent="-6swWoAFQc5QNOOsiuWM-7" vertex="1">
-          <mxGeometry x="48.25" y="442" width="58.5" height="48" as="geometry" />
+          <mxGeometry x="53" y="410" width="58.5" height="48" as="geometry" />
         </mxCell>
         <mxCell id="F3ZugaPa6C07F6jFrYPm-8" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.vpn_connection;fillColor=#F58534;gradientColor=none;fontFamily=Helvetica;fontSize=11;fontColor=#E4FDE1;" parent="-6swWoAFQc5QNOOsiuWM-7" vertex="1">
           <mxGeometry x="51" y="192" width="58.5" height="48" as="geometry" />
@@ -354,7 +354,7 @@
           <mxGeometry x="902" y="103.78" width="115.92" height="132.22" as="geometry" />
         </mxCell>
         <mxCell id="F3ZugaPa6C07F6jFrYPm-2" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Some Untrusted Network&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=#000000;labelBackgroundColor=default;" parent="-6swWoAFQc5QNOOsiuWM-1" vertex="1">
-          <mxGeometry x="836.5" y="73" width="242.5" height="357" as="geometry" />
+          <mxGeometry x="836.5" y="73" width="242.5" height="850" as="geometry" />
         </mxCell>
         <mxCell id="F3ZugaPa6C07F6jFrYPm-11" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.vpn_connection;fillColor=#F58534;gradientColor=none;fontFamily=Helvetica;fontSize=11;fontColor=#E4FDE1;" parent="F3ZugaPa6C07F6jFrYPm-2" vertex="1">
           <mxGeometry x="109.25" y="304" width="58.5" height="48" as="geometry" />
@@ -425,6 +425,18 @@
         </mxCell>
         <mxCell id="m0wDNA5YOzZf6kehRN5j-7" value="Data Transport" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=21;fontColor=default;labelBackgroundColor=default;" parent="m0wDNA5YOzZf6kehRN5j-6" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgXjgx_KUz3qnSBafuN6-0" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Home Network&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=#000000;labelBackgroundColor=default;startSize=23;" vertex="1" parent="-6swWoAFQc5QNOOsiuWM-1">
+          <mxGeometry x="12" y="557" width="259" height="291" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgXjgx_KUz3qnSBafuN6-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Server&lt;br&gt;Local IP Address&lt;br&gt;Ovelay IP&amp;nbsp;Address&lt;br&gt;&lt;/font&gt;" style="fontColor=#E4FDE1;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#F45B69;strokeColor=#028090;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.server;" vertex="1" parent="ZgXjgx_KUz3qnSBafuN6-0">
+          <mxGeometry x="46" y="62" width="71" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgXjgx_KUz3qnSBafuN6-2" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.vpn_connection;fillColor=#F58534;gradientColor=none;fontFamily=Helvetica;fontSize=11;fontColor=#E4FDE1;" vertex="1" parent="ZgXjgx_KUz3qnSBafuN6-0">
+          <mxGeometry x="52.25" y="220" width="58.5" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgXjgx_KUz3qnSBafuN6-4" value="&lt;font style=&quot;font-size: 17px&quot;&gt;Firewall&lt;br&gt;&lt;/font&gt;" style="fontColor=#E4FDE1;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#F45B69;strokeColor=#028090;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.firewall;" vertex="1" parent="-6swWoAFQc5QNOOsiuWM-1">
+          <mxGeometry x="227" y="652.5" width="100" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
