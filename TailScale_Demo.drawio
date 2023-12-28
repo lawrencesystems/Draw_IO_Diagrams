@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-28T16:02:28.396Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="e_CYmuK4nWH4y_XIhHzC" version="22.1.15" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-12-28T16:03:55.011Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="91PI_LAKekrq1fxef1dS" version="22.1.15" type="github" pages="9">
   <diagram name="Traditional VPN" id="mUJIeAtG4FjD4gp9zTXd">
     <mxGraphModel dx="1678" dy="1046" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#114B5F" math="0" shadow="0">
       <root>
@@ -290,7 +290,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="How Overlay Works 2" id="eAZM-6uiy2hv8dE7FZB8">
-    <mxGraphModel dx="1398" dy="872" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#114B5F" math="0" shadow="0">
+    <mxGraphModel dx="1678" dy="1046" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#114B5F" math="0" shadow="0">
       <root>
         <mxCell id="-6swWoAFQc5QNOOsiuWM-0" />
         <mxCell id="-6swWoAFQc5QNOOsiuWM-1" parent="-6swWoAFQc5QNOOsiuWM-0" />
@@ -354,7 +354,7 @@
           <mxGeometry x="902" y="103.78" width="115.92" height="132.22" as="geometry" />
         </mxCell>
         <mxCell id="F3ZugaPa6C07F6jFrYPm-2" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Some Untrusted Network&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="-6swWoAFQc5QNOOsiuWM-1" vertex="1">
-          <mxGeometry x="836.5" y="73" width="242.5" height="850" as="geometry" />
+          <mxGeometry x="836.5" y="73" width="242.5" height="370" as="geometry" />
         </mxCell>
         <mxCell id="F3ZugaPa6C07F6jFrYPm-11" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.vpn_connection;fillColor=#F58534;gradientColor=none;fontFamily=Helvetica;fontSize=11;fontColor=#E4FDE1;" parent="F3ZugaPa6C07F6jFrYPm-2" vertex="1">
           <mxGeometry x="109.25" y="304" width="58.5" height="48" as="geometry" />
