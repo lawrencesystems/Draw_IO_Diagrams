@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-31T19:01:02.267Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="JbBaQJPn7H59CH72O3Ek" version="22.1.15" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-12-31T20:47:51.367Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="ujgA2cGmyE_G6umDixtv" version="22.1.15" type="github" pages="3">
   <diagram name="VPN or Ports" id="e_FpkX2im6m9XWSfku2d">
     <mxGraphModel dx="1266" dy="918" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="#114B5F" math="0" shadow="0">
       <root>
@@ -222,7 +222,7 @@
         <mxCell id="F10zaS3CyXVFY6QeGM5x-7" value="" style="shape=mxgraph.signs.healthcare.eye;html=1;pointerEvents=1;fillColor=#ff7300;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;fontFamily=Helvetica;fontSize=11;fontColor=#E4FDE1;" vertex="1" parent="oqm1U1qw8Ko0b_N8M9nM-13">
           <mxGeometry x="63" y="47" width="48" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="OWTNhhmY3Pv-XR3Eaae2-0" value="&lt;br style=&quot;font-size: 23px;&quot;&gt;Cloudflare Tunnel&lt;br style=&quot;font-size: 23px;&quot;&gt;&lt;span style=&quot;font-size: 23px;&quot;&gt;Synology Relay&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;fontFamily=Helvetica;fontColor=#E4FDE1;fontStyle=1" vertex="1" parent="oqm1U1qw8Ko0b_N8M9nM-13">
+        <mxCell id="OWTNhhmY3Pv-XR3Eaae2-0" value="&lt;br style=&quot;font-size: 23px;&quot;&gt;Cloudflare Tunnel" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;fontFamily=Helvetica;fontColor=#E4FDE1;fontStyle=1" vertex="1" parent="oqm1U1qw8Ko0b_N8M9nM-13">
           <mxGeometry x="22" y="208" width="241" height="122" as="geometry" />
         </mxCell>
         <mxCell id="oqm1U1qw8Ko0b_N8M9nM-15" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=1;comic=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;labelBackgroundColor=#114B5F;strokeColor=#d6b656;strokeWidth=3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#E4FDE1;endArrow=none;endFill=0;fillColor=#fff2cc;gradientColor=#ffd966;flowAnimation=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="oqm1U1qw8Ko0b_N8M9nM-1" source="oqm1U1qw8Ko0b_N8M9nM-6" target="RHJSCkQ38Oa6LchQ6maN-3">
