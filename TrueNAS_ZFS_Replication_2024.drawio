@@ -1,0 +1,131 @@
+<mxfile host="Electron" modified="2024-03-30T13:30:53.231Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="aMT681EuLyXidqRP8ld4" version="23.0.2" type="device" pages="2">
+  <diagram name="Scratchpad ZFS Replication" id="u294TDEXlnN_woBBBI8y">
+    <mxGraphModel dx="4281" dy="939" grid="0" gridSize="20" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" background="#353743" math="0" shadow="0">
+      <root>
+        <mxCell id="aWkSORjFQmPnbAJ7QBXj-0" />
+        <mxCell id="aWkSORjFQmPnbAJ7QBXj-1" parent="aWkSORjFQmPnbAJ7QBXj-0" />
+        <mxCell id="zdrzU03kuOCyhO69CyLn-16" value="Users" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=22;fontColor=#E4FDE1;" parent="aWkSORjFQmPnbAJ7QBXj-1" vertex="1">
+          <mxGeometry x="-1861" y="121" width="251" height="642" as="geometry" />
+        </mxCell>
+        <mxCell id="zdrzU03kuOCyhO69CyLn-8" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer_with_Server.svg;fontFamily=Helvetica;fontSize=11;fontColor=#E4FDE1;" parent="zdrzU03kuOCyhO69CyLn-16" vertex="1">
+          <mxGeometry x="70.65000000000002" y="50" width="109.7" height="109.7" as="geometry" />
+        </mxCell>
+        <mxCell id="zdrzU03kuOCyhO69CyLn-17" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer_with_Server.svg;fontFamily=Helvetica;fontSize=11;fontColor=#E4FDE1;" parent="zdrzU03kuOCyhO69CyLn-16" vertex="1">
+          <mxGeometry x="70.65000000000002" y="189.3" width="109.7" height="109.7" as="geometry" />
+        </mxCell>
+        <mxCell id="zdrzU03kuOCyhO69CyLn-18" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer_with_Server.svg;fontFamily=Helvetica;fontSize=11;fontColor=#E4FDE1;" parent="zdrzU03kuOCyhO69CyLn-16" vertex="1">
+          <mxGeometry x="70.65000000000002" y="329.3" width="109.7" height="109.7" as="geometry" />
+        </mxCell>
+        <mxCell id="zdrzU03kuOCyhO69CyLn-19" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer_with_Server.svg;fontFamily=Helvetica;fontSize=11;fontColor=#E4FDE1;" parent="zdrzU03kuOCyhO69CyLn-16" vertex="1">
+          <mxGeometry x="70.65000000000002" y="468.3" width="109.7" height="109.7" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;font style=&quot;font-size: 20px&quot; color=&quot;#80ff00&quot;&gt;&lt;b&gt;TrueNAS Main&lt;br&gt;172.16.16.22&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" id="tgHQPNVx7kydK_-BzfON-0">
+          <mxCell style="verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.server_storage;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;" parent="aWkSORjFQmPnbAJ7QBXj-1" vertex="1">
+            <mxGeometry x="-1417" y="157" width="114" height="114" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 20px&quot; color=&quot;#80ff00&quot;&gt;&lt;b&gt;TrueNAS Backup&lt;br&gt;172.16.16.5&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" id="cuFH0GSeTOxXNlV4oP5I-0">
+          <mxCell style="verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.server_storage;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;" parent="aWkSORjFQmPnbAJ7QBXj-1" vertex="1">
+            <mxGeometry x="-840" y="117" width="114" height="114" as="geometry" />
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="ZFS Replication" id="lti_i8uU4hWeCg8XcrzC">
+    <mxGraphModel dx="4281" dy="939" grid="0" gridSize="20" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" background="#353743" math="0" shadow="0">
+      <root>
+        <mxCell id="ilrlSsmLMhmReraYDjhf-0" />
+        <mxCell id="ilrlSsmLMhmReraYDjhf-1" parent="ilrlSsmLMhmReraYDjhf-0" />
+        <mxCell id="BWezlb01aQzv_wi-CGBd-37" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=#114B5F;strokeColor=#028090;strokeWidth=10;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#E4FDE1;endArrow=none;endFill=0;" parent="ilrlSsmLMhmReraYDjhf-1" source="ilrlSsmLMhmReraYDjhf-7" target="BWezlb01aQzv_wi-CGBd-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1646.07" y="200" />
+              <mxPoint x="-1646.07" y="605" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&lt;font style=&quot;font-size: 20px&quot; color=&quot;#80ff00&quot;&gt;&lt;b&gt;TrueNAS Main&lt;br&gt;172.16.16.22&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" id="ilrlSsmLMhmReraYDjhf-7">
+          <mxCell style="verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.server_storage;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;" parent="ilrlSsmLMhmReraYDjhf-1" vertex="1">
+            <mxGeometry x="-1539.07" y="140" width="114" height="114" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="BWezlb01aQzv_wi-CGBd-36" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=#114B5F;strokeColor=#028090;strokeWidth=10;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#E4FDE1;endArrow=none;endFill=0;" parent="ilrlSsmLMhmReraYDjhf-1" source="ilrlSsmLMhmReraYDjhf-8" target="BWezlb01aQzv_wi-CGBd-23" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-319" y="192" />
+              <mxPoint x="-319" y="605" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&lt;font style=&quot;font-size: 20px&quot; color=&quot;#80ff00&quot;&gt;&lt;b&gt;TrueNAS Backup&lt;br&gt;172.16.16.5&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" id="ilrlSsmLMhmReraYDjhf-8">
+          <mxCell style="verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.server_storage;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;" parent="ilrlSsmLMhmReraYDjhf-1" vertex="1">
+            <mxGeometry x="-561" y="140" width="114" height="114" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="BWezlb01aQzv_wi-CGBd-0" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=1;labelBackgroundColor=#114B5F;strokeColor=#028090;strokeWidth=10;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#E4FDE1;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="ilrlSsmLMhmReraYDjhf-1" source="ilrlSsmLMhmReraYDjhf-7" target="ilrlSsmLMhmReraYDjhf-8" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1185.07" y="386" as="sourcePoint" />
+            <mxPoint x="-1135.07" y="336" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BWezlb01aQzv_wi-CGBd-1" value="ZFS Replication&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=41;fontFamily=Helvetica;fontColor=#F0F0F0;labelBackgroundColor=#18141D;labelBorderColor=default;" parent="BWezlb01aQzv_wi-CGBd-0" vertex="1" connectable="0">
+          <mxGeometry x="0.0024" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BWezlb01aQzv_wi-CGBd-3" value="ZFS Pool" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=20;fontColor=#E4FDE1;fillColor=#18141D;" parent="ilrlSsmLMhmReraYDjhf-1" vertex="1">
+          <mxGeometry x="-1626.57" y="331" width="584.5" height="547" as="geometry" />
+        </mxCell>
+        <mxCell id="BWezlb01aQzv_wi-CGBd-5" value="Dataset" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=20;fontColor=#E4FDE1;fillColor=#18141D;" parent="BWezlb01aQzv_wi-CGBd-3" vertex="1">
+          <mxGeometry x="43.5" y="79" width="230.5" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="BWezlb01aQzv_wi-CGBd-2" value="Your Data" style="sketch=0;outlineConnect=0;fontColor=#F0F0F0;gradientColor=none;fillColor=#E7157B;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=22;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.documents;fontFamily=Helvetica;labelBackgroundColor=none;" parent="BWezlb01aQzv_wi-CGBd-5" vertex="1">
+          <mxGeometry x="79.55999999999995" y="56.5" width="71.38" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="BWezlb01aQzv_wi-CGBd-15" value="ZVOL" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=20;fontColor=#E4FDE1;fillColor=#18141D;" parent="BWezlb01aQzv_wi-CGBd-3" vertex="1">
+          <mxGeometry x="43.5" y="307" width="230.5" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="BWezlb01aQzv_wi-CGBd-8" value="" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.data2;fontFamily=Helvetica;fontSize=11;fontColor=#E4FDE1;" parent="BWezlb01aQzv_wi-CGBd-15" vertex="1">
+          <mxGeometry x="58.75" y="43.5" width="113" height="113" as="geometry" />
+        </mxCell>
+        <mxCell id="BWezlb01aQzv_wi-CGBd-17" value="Dataset Snapshot 🕒" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=20;fontColor=#E4FDE1;fillColor=#18141D;" parent="BWezlb01aQzv_wi-CGBd-3" vertex="1">
+          <mxGeometry x="299.5" y="79" width="230.5" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="BWezlb01aQzv_wi-CGBd-18" value="Your Data" style="sketch=0;outlineConnect=0;fontColor=#F0F0F0;gradientColor=none;fillColor=#E7157B;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=22;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.documents;fontFamily=Helvetica;labelBackgroundColor=none;" parent="BWezlb01aQzv_wi-CGBd-17" vertex="1">
+          <mxGeometry x="79.55999999999995" y="56.5" width="71.38" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="BWezlb01aQzv_wi-CGBd-19" value="ZVOL Snapshot 🕒" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=20;fontColor=#E4FDE1;fillColor=#18141D;" parent="BWezlb01aQzv_wi-CGBd-3" vertex="1">
+          <mxGeometry x="299.5" y="307" width="230.5" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="BWezlb01aQzv_wi-CGBd-20" value="" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.data2;fontFamily=Helvetica;fontSize=11;fontColor=#E4FDE1;" parent="BWezlb01aQzv_wi-CGBd-19" vertex="1">
+          <mxGeometry x="58.75" y="43.5" width="113" height="113" as="geometry" />
+        </mxCell>
+        <mxCell id="BWezlb01aQzv_wi-CGBd-21" value="Active Data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=27;fontFamily=Helvetica;fontColor=#E7157B;labelBackgroundColor=none;fontStyle=1" parent="BWezlb01aQzv_wi-CGBd-3" vertex="1">
+          <mxGeometry x="72.75" y="40" width="172" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BWezlb01aQzv_wi-CGBd-22" value="Point(s) in Time" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=27;fontFamily=Helvetica;fontColor=#E7157B;labelBackgroundColor=none;fontStyle=1" parent="BWezlb01aQzv_wi-CGBd-3" vertex="1">
+          <mxGeometry x="302" y="40" width="228" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BWezlb01aQzv_wi-CGBd-23" value="ZFS Pool" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=20;fontColor=#E4FDE1;fillColor=#18141D;" parent="ilrlSsmLMhmReraYDjhf-1" vertex="1">
+          <mxGeometry x="-688" y="331" width="348.5" height="547" as="geometry" />
+        </mxCell>
+        <mxCell id="BWezlb01aQzv_wi-CGBd-28" value="Dataset Snapshot 🕒" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=20;fontColor=#E4FDE1;fillColor=#18141D;" parent="BWezlb01aQzv_wi-CGBd-23" vertex="1">
+          <mxGeometry x="70" y="87" width="230.5" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="BWezlb01aQzv_wi-CGBd-29" value="Your Data" style="sketch=0;outlineConnect=0;fontColor=#F0F0F0;gradientColor=none;fillColor=#E7157B;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=22;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.documents;fontFamily=Helvetica;labelBackgroundColor=none;" parent="BWezlb01aQzv_wi-CGBd-28" vertex="1">
+          <mxGeometry x="79.55999999999995" y="56.5" width="71.38" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="BWezlb01aQzv_wi-CGBd-30" value="ZVOL Snapshot 🕒" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=20;fontColor=#E4FDE1;fillColor=#18141D;" parent="BWezlb01aQzv_wi-CGBd-23" vertex="1">
+          <mxGeometry x="70" y="315" width="230.5" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="BWezlb01aQzv_wi-CGBd-31" value="" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.data2;fontFamily=Helvetica;fontSize=11;fontColor=#E4FDE1;" parent="BWezlb01aQzv_wi-CGBd-30" vertex="1">
+          <mxGeometry x="58.75" y="43.5" width="113" height="113" as="geometry" />
+        </mxCell>
+        <mxCell id="BWezlb01aQzv_wi-CGBd-33" value="Point(s) in Time" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=27;fontFamily=Helvetica;fontColor=#E7157B;labelBackgroundColor=none;fontStyle=1" parent="BWezlb01aQzv_wi-CGBd-23" vertex="1">
+          <mxGeometry x="72.5" y="48" width="228" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
