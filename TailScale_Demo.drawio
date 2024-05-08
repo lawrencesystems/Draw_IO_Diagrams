@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-08T19:58:21.315Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="VEJbXhPSWL_DhTVJ9IfO" version="24.0.0" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2024-05-08T19:58:54.119Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="xU5kPjZZ_IANjhO6HCjw" version="24.0.0" type="github" pages="10">
   <diagram name="Full Traditional VPN" id="-ftEBW6oXyFqRJ3JjhrL">
     <mxGraphModel dx="1749" dy="1013" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1100" pageHeight="850" background="#114B5F" math="0" shadow="0">
       <root>
@@ -166,7 +166,7 @@
         <mxCell id="MMfDueoCJfVepA3NiRcQ-1" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=1;comic=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.737;entryY=0.714;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;labelBackgroundColor=#114B5F;strokeColor=#d6b656;strokeWidth=3;fontFamily=Helvetica;fontSize=11;fontColor=#E4FDE1;endArrow=none;endFill=0;fillColor=#fff2cc;gradientColor=#ffd966;flowAnimation=1;" parent="WmIoQeZvhGoZ6jdl9bgJ-1" source="5IPjkREzYSuVpFkmWHGu-8" target="sWgGaBNZ5fhU2ft0woAF-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9EkNuS_JqEQwFHfZbVuV-1" value="Encrypted VPN&lt;div&gt;Data Channel&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;192.168.55.0/24&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontSize=28;" vertex="1" connectable="0" parent="MMfDueoCJfVepA3NiRcQ-1">
+        <mxCell id="9EkNuS_JqEQwFHfZbVuV-1" value="Encrypted VPN&lt;div&gt;Data Channel&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;0.0.0.0/0&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontSize=28;" vertex="1" connectable="0" parent="MMfDueoCJfVepA3NiRcQ-1">
           <mxGeometry x="0.0913" y="2" relative="1" as="geometry">
             <mxPoint x="27" y="14" as="offset" />
           </mxGeometry>
