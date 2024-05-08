@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-08T20:29:46.633Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="gs8CanQTrD2sdRH4hE6l" version="24.0.0" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2024-05-08T20:31:43.294Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="Wdck5aM_aDFt_SNBJtC9" version="24.0.0" type="github" pages="11">
   <diagram name="Full Tunnelvision VPN" id="8XWrS2nsQqvIppXGa5Hi">
     <mxGraphModel dx="1434" dy="1307" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1100" pageHeight="850" background="#114B5F" math="0" shadow="0">
       <root>
@@ -72,7 +72,7 @@
           <mxGeometry x="177.5" y="225" width="38" height="35" as="geometry" />
         </mxCell>
         <mxCell id="5CsWyCA_lvj9I9Keii54-3" value="" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#A153A0;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0,0.5,0],[0.125,0.25,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[0.875,0.25,0],[1,0.5,0],[0.875,0.75,0],[0.75,1,0],[0.5,1,0],[0.125,0.75,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=mxgraph.cisco_safe.design.blank_device;resIcon=mxgraph.cisco_safe.design.router_2;fontFamily=Helvetica;fontSize=11;fontColor=#E4FDE1;labelBackgroundColor=#114B5F;" vertex="1" parent="7GUMR4XEVd9L_4wrL0aL-17">
-          <mxGeometry x="86.5" y="159" width="50" height="45" as="geometry" />
+          <mxGeometry x="76.5" y="166" width="30.5" height="25" as="geometry" />
         </mxCell>
         <mxCell id="7GUMR4XEVd9L_4wrL0aL-19" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=1;comic=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#114B5F;strokeColor=#028090;strokeWidth=3;fontFamily=Helvetica;fontSize=11;fontColor=#E4FDE1;endArrow=none;endFill=0;fillColor=#F45B69;" edge="1" parent="7GUMR4XEVd9L_4wrL0aL-1" source="7GUMR4XEVd9L_4wrL0aL-22" target="7GUMR4XEVd9L_4wrL0aL-13">
           <mxGeometry relative="1" as="geometry">
@@ -90,9 +90,9 @@
             <mxPoint x="27" y="14" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5CsWyCA_lvj9I9Keii54-4" value="DHCP 121&lt;div&gt;Routes&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;0.0.0.0/0&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontSize=28;" vertex="1" connectable="0" parent="7GUMR4XEVd9L_4wrL0aL-20">
+        <mxCell id="5CsWyCA_lvj9I9Keii54-4" value="DHCP 121&lt;div&gt;Routes&lt;br&gt;1.1.1.1/32&lt;/div&gt;&lt;div&gt;8.8.8.8/32&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontSize=28;" vertex="1" connectable="0" parent="7GUMR4XEVd9L_4wrL0aL-20">
           <mxGeometry x="0.0913" y="2" relative="1" as="geometry">
-            <mxPoint x="58" y="230" as="offset" />
+            <mxPoint x="425" y="179" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="5CsWyCA_lvj9I9Keii54-1" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;comic=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=#b85450;strokeWidth=4;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#E4FDE1;labelBackgroundColor=#114B5F;endArrow=classic;endFill=1;flowAnimation=1;fillColor=#f8cecc;" edge="1" parent="7GUMR4XEVd9L_4wrL0aL-1" source="7GUMR4XEVd9L_4wrL0aL-22" target="7GUMR4XEVd9L_4wrL0aL-13">
