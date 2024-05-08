@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-08T20:02:06.526Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="Vh8UQN6XuKhStJDMyGWU" version="24.0.0" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2024-05-08T20:03:29.127Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="nT_KWbWJPa-sDPZxgSOl" version="24.0.0" type="github" pages="10">
   <diagram name="Full Traditional VPN" id="-ftEBW6oXyFqRJ3JjhrL">
     <mxGraphModel dx="1749" dy="1413" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1100" pageHeight="850" background="#114B5F" math="0" shadow="0">
       <root>
@@ -92,7 +92,7 @@
           <mxGeometry x="310" y="13" width="487" height="30" as="geometry" />
         </mxCell>
         <mxCell id="j-iEhrv2hLZ0obeCRd6H-0" value="Remote Network 172.16.16.0/24" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;" vertex="1" parent="gMMpPnXbBmToy-G0ZvOE-1">
-          <mxGeometry x="929.75" y="13" width="60" height="30" as="geometry" />
+          <mxGeometry x="885" y="9" width="142.75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QRM4rxz5E712RhbLhjg9-0" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=1;comic=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;labelBackgroundColor=#114B5F;strokeColor=#d6b656;strokeWidth=3;fontFamily=Helvetica;fontSize=11;fontColor=#E4FDE1;endArrow=classic;endFill=1;fillColor=#fff2cc;flowAnimation=1;gradientColor=#ffd966;" edge="1" parent="gMMpPnXbBmToy-G0ZvOE-1" target="gMMpPnXbBmToy-G0ZvOE-13">
           <mxGeometry relative="1" as="geometry">
@@ -109,7 +109,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Split Traditional VPN" id="xR6m0VZ5eGte8L8HKujC">
-    <mxGraphModel dx="1749" dy="1413" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1100" pageHeight="850" background="#114B5F" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="1186" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1100" pageHeight="850" background="#114B5F" math="0" shadow="0">
       <root>
         <mxCell id="FsrgN0dhFeyHZjP2RRRw-0" />
         <mxCell id="FsrgN0dhFeyHZjP2RRRw-1" parent="FsrgN0dhFeyHZjP2RRRw-0" />
@@ -201,7 +201,7 @@
           <mxGeometry x="310" y="13" width="487" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FsrgN0dhFeyHZjP2RRRw-26" value="Remote Network 172.16.16.0/24" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;" vertex="1" parent="FsrgN0dhFeyHZjP2RRRw-1">
-          <mxGeometry x="929.75" y="13" width="60" height="30" as="geometry" />
+          <mxGeometry x="929.75" y="8" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
